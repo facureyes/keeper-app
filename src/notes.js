@@ -1,4 +1,4 @@
-const notes = [
+const initial_notes = [
     {
       key: 1,
       title: "Delegation",
@@ -25,4 +25,4 @@ const notes = [
     }
   ];
 
-export default notes;
+export default initial_notes;
