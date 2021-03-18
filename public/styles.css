@@ -8,12 +8,11 @@
   }
   body {
     background: #eee;
-    padding: 0 16px;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   }
   
   header {
     background-color: #f5ba13;
-    margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
@@ -65,6 +64,7 @@
     height: 36px;
     cursor: pointer;
     outline: none;
+    background: none;
   }
   
   form.create-note {

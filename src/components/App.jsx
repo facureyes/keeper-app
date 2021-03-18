@@ -8,7 +8,7 @@ import initial_notes from "../notes"
 
 function App() {
 
-    const [notes, editNotes] = useState(initial_notes);
+    const [notes, editNotes] = useState([]);
 
     function addNote(note){
         const newNote = {
